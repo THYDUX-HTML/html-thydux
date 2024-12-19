@@ -1,0 +1,25 @@
+name: Proof HTML
+
+on:
+
+push:
+
+workflow_dispatch:
+
+jobs:
+
+build:
+
+ubuntu-latest
+
+runs-on:
+
+steps:
+
+uses: anishathalye/proof-html@v1.1.0
+
+with:
+
+directory:
+
+./
